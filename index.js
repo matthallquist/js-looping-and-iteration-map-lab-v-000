@@ -4,6 +4,9 @@ function lowerCaseDrivers(array) {
 }
 
 function nameToAttributes(array) {
-  let newArray = array.split(" ")
-  
+  let newArray = []
+  for (const name of array) {
+    newArray.push(name.split(" "));
+  }
+  console.log(newArray);
 }
