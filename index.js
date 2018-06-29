@@ -4,5 +4,6 @@ function lowerCaseDrivers(array) {
 }
 
 function nameToAttributes(array) {
-  return array.map(function (instance) { Object.assign {firstName: instance.split(" ")[0], lastName: instance.split(" ")[1]} })
+  let newArray = array.split(" ")
+  
 }
