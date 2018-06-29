@@ -8,5 +8,5 @@ function nameToAttributes(array) {
   for (const name of array) {
     newArray.push(name.split(" "));
   }
-  return array.map(function (instance) {return Object.assign{{}, instance, firstName: instance[0], lastName: instance[1]};});
+  return newArray.map(function (instance) {return Object.assign{{}, instance, firstName: instance[0], lastName: instance[1]};});
 }
