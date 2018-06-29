@@ -10,6 +10,5 @@ function nameToAttributes(array) {
   }
   return newArray.map(function(instance) {
     newObj = Object.assign({}, {firstName: instance[0], lastName: instance[1]});
-    console.log(newObj);
   });
 }
