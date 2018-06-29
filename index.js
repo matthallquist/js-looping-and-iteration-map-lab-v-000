@@ -8,5 +8,8 @@ function nameToAttributes(array) {
   for (const name of array) {
     newArray.push(name.split(" "));
   }
-  return newArray.map(function (instance) {return Object.assign{firstName: instance[0], lastName: instance[1]}};);
+  objArray = [];
+  for (const person of newArray) {
+    person
+  }
 }
