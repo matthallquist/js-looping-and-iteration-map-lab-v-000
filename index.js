@@ -12,3 +12,9 @@ function nameToAttributes(array) {
     return Object.assign({}, {firstName: instance[0], lastName: instance[1]});
   });
 }
+
+function attributesToPhrase(array) {
+  return array.map(function(instance) {
+    return `${instance.name} is from ${instance.hometown}`;
+  })
+}
