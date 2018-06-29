@@ -9,6 +9,6 @@ function nameToAttributes(array) {
     newArray.push(name.split(" "));
   }
   return newArray.map(function(instance) {
-    Object.assign({}, {firstName: person[0], lastName: person[1]});
+    Object.assign({}, {firstName: instance[0], lastName: instance[1]});
   });
 }
