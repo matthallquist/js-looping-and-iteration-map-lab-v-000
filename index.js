@@ -1,4 +1,4 @@
 // Code your solution in this file.
 function lowerCaseDrivers(array) {
-  array.map(function(this) {this.toLowerCase});
+  return array.map(function(this) {this.toLowerCase});
 }
